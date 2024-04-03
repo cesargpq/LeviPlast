@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeviPlast.Aplicacion.DTO\LeviPlast.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\LeviPlast.Aplicacion.Interface\LeviPlast.Aplicacion.Interface.csproj" />
+    <ProjectReference Include="..\LeviPlast.Aplicacion.Main\LeviPlast.Aplicacion.Main.csproj" />
+    <ProjectReference Include="..\LeviPlast.Dominio.Core\LeviPlast.Dominio.Core.csproj" />
+    <ProjectReference Include="..\LeviPlast.Dominio.Entity\LeviPlast.Dominio.Entity.csproj" />
+    <ProjectReference Include="..\LeviPlast.Dominio.Interface\LeviPlast.Dominio.Interface.csproj" />
+    <ProjectReference Include="..\LeviPlast.Infraestructura.Data\LeviPlast.Infraestructura.Data.csproj" />
+    <ProjectReference Include="..\LeviPlast.Infraestructura.Interface\LeviPlast.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\LeviPlast.Infraestructura.Repository\LeviPlast.Infraestructura.Repository.csproj" />
+    <ProjectReference Include="..\LeviPlast.Transversal.Common\LeviPlast.Transversal.Common.csproj" />
+    <ProjectReference Include="..\LeviPlast.Transversal.Mapper\LeviPlast.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

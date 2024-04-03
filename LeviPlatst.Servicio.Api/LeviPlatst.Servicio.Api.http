@@ -1,0 +1,6 @@
+@LeviPlatst.Servicio.Api_HostAddress = http://localhost:5223
+
+GET {{LeviPlatst.Servicio.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
