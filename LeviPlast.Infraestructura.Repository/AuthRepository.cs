@@ -23,7 +23,7 @@ namespace LeviPlast.Infraestructura.Repository
         }
        
 
-        public async Task<AuthResponseDTO> Auth(Auth auth)
+        public async Task<bool> Auth(Auth auth)
         {
             
             var data = await _context.User.Where(x=>x.UserName.Equals(auth.UserName) && x.Password.Equals(auth.Password)).FirstOrDefaultAsync();

@@ -11,6 +11,6 @@ namespace LeviPlast.Infraestructura.Interface
 {
     public interface IAuthRepository
     {
-        Task<AuthResponseDTO> Auth(Auth auth);
+        Task<bool> Auth(Auth auth);
     }
 }
