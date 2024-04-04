@@ -2,36 +2,24 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using Microsoft.EntityFrameworkCore;
+using LeviPlast.Dominio.Entity;
 namespace LeviPlast.Infraestructura.Data
 {
-    public class ConnectionFactory : IConnectionFactory
+    public class ConnectionFactory : DbContext
     {
-        private readonly IConfiguration _configuration;
 
-        public ConnectionFactory(IConfiguration configuration)
+        public ConnectionFactory(DbContextOptions<ConnectionFactory> options)
+               : base(options)
         {
-            _configuration = configuration;
+
+        }
+        public virtual DbSet<User> User { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
         }
 
-        public IDbConnection GetConnection
-        {
-            get
-            {
-                var sqlConnection = new SqlConnection();
-                if (sqlConnection == null) return null;
-                sqlConnection.ConnectionString = _configuration.GetConnectionString("NorthwindConnection");
-                try
-                {
-                    sqlConnection.Open();
-                }
-                catch (Exception ex)
-                {
-                    var dato = ex.ToString();
-                    throw;
-                }
-                
-                return sqlConnection;
-            }
-        }
     }
 }

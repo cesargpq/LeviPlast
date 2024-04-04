@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Transversal.Common", "LeviPlast.Transversal.Common\LeviPlast.Transversal.Common.csproj", "{0F3010BA-4D00-4CE6-984B-22EF7717F30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Transversal.Common", "LeviPlast.Transversal.Common\LeviPlast.Transversal.Common.csproj", "{0F3010BA-4D00-4CE6-984B-22EF7717F30D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{D038E0B8-83DB-401B-B195-D031E3665F8A}"
 EndProject
@@ -15,27 +15,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{CB398EA0-33F9-4D0F-B370-8AA548740EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Infraestructura.Data", "LeviPlast.Infraestructura.Data\LeviPlast.Infraestructura.Data.csproj", "{07EDC375-2D2F-4960-BA27-51B3B407B114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Infraestructura.Data", "LeviPlast.Infraestructura.Data\LeviPlast.Infraestructura.Data.csproj", "{07EDC375-2D2F-4960-BA27-51B3B407B114}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Infraestructura.Interface", "LeviPlast.Infraestructura.Interface\LeviPlast.Infraestructura.Interface.csproj", "{EADEB7A2-591B-4BE3-B0CB-71AF157F07C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Infraestructura.Interface", "LeviPlast.Infraestructura.Interface\LeviPlast.Infraestructura.Interface.csproj", "{EADEB7A2-591B-4BE3-B0CB-71AF157F07C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Dominio.Entity", "LeviPlast.Dominio.Entity\LeviPlast.Dominio.Entity.csproj", "{469FCB25-8118-49AA-8830-077F9B75FBA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Dominio.Entity", "LeviPlast.Dominio.Entity\LeviPlast.Dominio.Entity.csproj", "{469FCB25-8118-49AA-8830-077F9B75FBA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Infraestructura.Repository", "LeviPlast.Infraestructura.Repository\LeviPlast.Infraestructura.Repository.csproj", "{95D99C4A-A195-42D4-9C28-137854B88693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Infraestructura.Repository", "LeviPlast.Infraestructura.Repository\LeviPlast.Infraestructura.Repository.csproj", "{95D99C4A-A195-42D4-9C28-137854B88693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Dominio.Interface", "LeviPlast.Dominio.Interface\LeviPlast.Dominio.Interface.csproj", "{380FAE66-F0EA-4320-97A4-0E24817C57DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Dominio.Interface", "LeviPlast.Dominio.Interface\LeviPlast.Dominio.Interface.csproj", "{380FAE66-F0EA-4320-97A4-0E24817C57DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Dominio.Core", "LeviPlast.Dominio.Core\LeviPlast.Dominio.Core.csproj", "{076CFE90-F81B-48F7-822C-51D60393FA94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Dominio.Core", "LeviPlast.Dominio.Core\LeviPlast.Dominio.Core.csproj", "{076CFE90-F81B-48F7-822C-51D60393FA94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Aplicacion.DTO", "LeviPlast.Aplicacion.DTO\LeviPlast.Aplicacion.DTO.csproj", "{6275F908-4091-43DD-98BE-834D45B1D2EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Aplicacion.DTO", "LeviPlast.Aplicacion.DTO\LeviPlast.Aplicacion.DTO.csproj", "{6275F908-4091-43DD-98BE-834D45B1D2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Transversal.Mapper", "LeviPlast.Transversal.Mapper\LeviPlast.Transversal.Mapper.csproj", "{95A754F0-0A81-4998-8C2A-978CF8DC646A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Transversal.Mapper", "LeviPlast.Transversal.Mapper\LeviPlast.Transversal.Mapper.csproj", "{95A754F0-0A81-4998-8C2A-978CF8DC646A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Aplicacion.Interface", "LeviPlast.Aplicacion.Interface\LeviPlast.Aplicacion.Interface.csproj", "{500A735E-D29C-492C-9515-850581C32A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Aplicacion.Interface", "LeviPlast.Aplicacion.Interface\LeviPlast.Aplicacion.Interface.csproj", "{500A735E-D29C-492C-9515-850581C32A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Aplicacion.Main", "LeviPlast.Aplicacion.Main\LeviPlast.Aplicacion.Main.csproj", "{A1ADDA49-85D9-4D75-958C-11D27B418CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlast.Aplicacion.Main", "LeviPlast.Aplicacion.Main\LeviPlast.Aplicacion.Main.csproj", "{A1ADDA49-85D9-4D75-958C-11D27B418CD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlatst.Servicio.Api", "LeviPlatst.Servicio.Api\LeviPlatst.Servicio.Api.csproj", "{8E66D7C4-F27D-476D-A496-6BF20CE3F276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeviPlatst.Servicio.Api", "LeviPlatst.Servicio.Api\LeviPlatst.Servicio.Api.csproj", "{8E66D7C4-F27D-476D-A496-6BF20CE3F276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviPlast.Application.Common", "LeviPlast.Application.Common\LeviPlast.Application.Common.csproj", "{1CAC569D-ED31-4E95-B597-21A2874B41E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{8E66D7C4-F27D-476D-A496-6BF20CE3F276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E66D7C4-F27D-476D-A496-6BF20CE3F276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E66D7C4-F27D-476D-A496-6BF20CE3F276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAC569D-ED31-4E95-B597-21A2874B41E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAC569D-ED31-4E95-B597-21A2874B41E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAC569D-ED31-4E95-B597-21A2874B41E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAC569D-ED31-4E95-B597-21A2874B41E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{500A735E-D29C-492C-9515-850581C32A1D} = {1E5842BE-7E41-4231-9B93-68DD94DB60A9}
 		{A1ADDA49-85D9-4D75-958C-11D27B418CD7} = {1E5842BE-7E41-4231-9B93-68DD94DB60A9}
 		{8E66D7C4-F27D-476D-A496-6BF20CE3F276} = {CB398EA0-33F9-4D0F-B370-8AA548740EA7}
+		{1CAC569D-ED31-4E95-B597-21A2874B41E7} = {1E5842BE-7E41-4231-9B93-68DD94DB60A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F46246B-A9E5-46DA-A560-FBC279E19649}

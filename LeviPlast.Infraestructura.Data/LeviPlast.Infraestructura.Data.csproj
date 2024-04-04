@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeviPlast.Dominio.Entity\LeviPlast.Dominio.Entity.csproj" />
     <ProjectReference Include="..\LeviPlast.Transversal.Common\LeviPlast.Transversal.Common.csproj" />
   </ItemGroup>
 

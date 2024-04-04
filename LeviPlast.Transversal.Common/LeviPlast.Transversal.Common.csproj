@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LeviPlast.Aplicacion.DTO\LeviPlast.Aplicacion.DTO.csproj" />
+  </ItemGroup>
+
 </Project>

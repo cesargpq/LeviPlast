@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.28" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LeviPlast.Infraestructura.Data\LeviPlast.Infraestructura.Data.csproj" />
     <ProjectReference Include="..\LeviPlast.Infraestructura.Interface\LeviPlast.Infraestructura.Interface.csproj" />
     <ProjectReference Include="..\LeviPlast.Transversal.Common\LeviPlast.Transversal.Common.csproj" />

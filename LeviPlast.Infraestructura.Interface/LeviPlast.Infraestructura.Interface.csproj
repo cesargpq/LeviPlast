@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LeviPlast.Dominio.Entity\LeviPlast.Dominio.Entity.csproj" />
+    <ProjectReference Include="..\LeviPlast.Transversal.Common\LeviPlast.Transversal.Common.csproj" />
   </ItemGroup>
 
 </Project>
